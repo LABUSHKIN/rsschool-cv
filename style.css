@@ -1,5 +1,5 @@
 html, body {
-    font-family: "Roboto", "Mono", Arial, serif;
+    font-family: "Kdam Thmor Pro", Arial, serif;
     background-color: rgb(255, 242, 242);
     max-width: 90%;
     scroll-behavior: smooth; 
@@ -21,17 +21,26 @@ html, body {
     margin: 0.5em 0.1em 0.5em 0.5em;
   }
   h2 {
-    color: rgb(116, 115, 115);
-    font-size: 220%;
+    color: rgb(87, 86, 86);
+    font-size: 160%;
+    letter-spacing: 0.06em;
     text-align: left;
+    margin: 0.5em 0.1em 0.5em 0.6em;
+  }
+  h3 {
+    color: black;
+    margin: 0.5em 0.1em 0.5em 0.8em;  
   }
   h4 {
-    color: rgb(193, 0, 0);
-    margin: 0.5em 0.1em 0.5em 0.5em;  
+    font-size: 1.1em;
+    color: #3da500;
+    margin: 0.5em 0.1em 0.5em 24em;
   }
-  h6 {
-    font-size: 0.9em;
-    color: #0000cc
+  p {
+    font-family: Arial;
+    font-size: 1.2em;
+    color: black;
+    margin-left: 1.4em;
   }
   b {
     font-size: 2em;
@@ -42,7 +51,6 @@ html, body {
     justify-content: center;
     margin: 0 2em;
     padding: 0.5em;
-  
   }
   .nav-list {
     list-style: none;
@@ -55,7 +63,7 @@ html, body {
   }
   .btn {
     display: inline-block;	
-    padding: 0 0.5em;
+    padding: 0 0.8em;
     border: 2px solid black;
     border-radius: 2em;
     height: 50px;
@@ -64,13 +72,14 @@ html, body {
     font-weight: 500;
     text-decoration: none;
     color: rgb(51, 0, 0);
-    background-color: rgb(27, 181, 0);
+    background-color: rgb(180, 250, 168);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgb(0 0 0 / 8%);
     cursor: pointer;
     user-select: none;
     appearance: none;
     touch-action: manipulation;  
   } 
+  
   @media screen and (max-width: 700px) { 
     .block {   
       flex-direction: row;
@@ -86,24 +95,16 @@ html, body {
     padding: 20px;
     border: solid grey;
     margin: 1.4em 1em 1em 1em;
-  }
-  .right-block {
-    flex: 50%;
-    background-color: #fff5ef;
-    padding: 20px;
-    border: solid grey;
-    margin: 1.4em 1em 1em 1em;
+  } 
+  .contacts, .exp-panel, .uni-panel{
+    color: #666666;
+    padding: 0.8em 0.8em;
   }
   .profile-image {
     display: block;
     margin-left: auto;
     margin-right: auto 
   }
-  .contacts, .exper-panel, .uni-panel {
-    font-size: 16px;
-    color: #666666;
-    padding: 0.5em 1.5em;
-  } 
   .skills {
     font-size: 0.8em;
     text-align: center;  
@@ -121,10 +122,24 @@ html, body {
   .deu {width: 40%; background-color: #0000cc; border-radius: 1em;}
   .bel {width: 90%; background-color: #0000cc; border-radius: 1em;}
   .rus {width: 100%; background-color: #0000cc; border-radius: 1em;}
+
+  .right-block {
+    flex: 50%;
+    background-color: #fff5ef;
+    padding: 20px;
+    border: solid grey;
+    margin: 1.4em 1em 1em 1em;
+  }
+  code {
+    font-size: 1.2em;
+    text-align: left;  
+    color: rgb(86, 83, 83);
+    
+  }
   footer {
     text-align: center;
     text-decoration: none;
-    background-color: #0000cc;
+    background-color: #1212c9;
     color: white;
     position: relative; width:100%;
   }
@@ -136,7 +151,8 @@ html, body {
     color: #ff6d33;
    }
   a {
-    color: #33ff44;
+    font-size: 1.6em;
+    color: greenyellow;
     text-decoration: none;
-    margin: 2em;
+    margin: 0.2em;
   }
