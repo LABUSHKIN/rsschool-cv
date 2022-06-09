@@ -1,4 +1,4 @@
-# rsschool-cv
-[https://LABUSHKIN.github.io/rsschool-cv/](CV - HTML)
+## rsschool-cv
+[CV - Markdown](https://LABUSHKIN.github.io/rsschool-cv/cv)
 
-[https://LABUSHKIN.github.io/rsschool-cv/cv](CV - Markdown)
+[CV - HTML](https://LABUSHKIN.github.io/rsschool-cv/)
