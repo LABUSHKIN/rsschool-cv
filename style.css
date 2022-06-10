@@ -1,0 +1,168 @@
+html, body {
+    font-family: "Kdam Thmor Pro", Arial, serif;
+    background-color: rgb(255, 242, 242);
+    max-width: 90%;
+    scroll-behavior: smooth; 
+    height: auto;
+    margin: auto;
+  }
+ * {
+    box-sizing: border-box; width: auto;
+  }
+  header {
+    background-color: #b2b8f9;
+    color: #ffffff;
+    text-align: center;
+    position: relative; width:100%;
+  }
+  h1 {
+    color: black;
+    font-size: 350%;
+    margin: 0.5em 0.1em 0.5em 0.5em;
+  }
+  h2 {
+    color: rgb(87, 86, 86);
+    font-size: 160%;
+    letter-spacing: 0.06em;
+    text-align: left;
+    margin: 0.5em 0.1em 0.5em 0.6em;
+  }
+  h3 {
+    color: black;
+    margin: 0.5em 0.1em 0.5em 0.8em;  
+  }
+  h3#ler :hover {
+    color: #ff6d33;  
+  }
+  h4 {
+    font-size: 1.1em;
+    color: #3da500;
+    margin: 0.5em 0.1em 0.5em 24em;
+  }
+  p {
+    font-family: Arial;
+    font-size: 1.4em;
+    color: black;
+    margin-left: 1.4em;
+  }
+  b {
+    font-size: 2em;
+    color: black;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+    margin: 0 2em;
+    padding: 0.5em;
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .linksn {
+    font-size: 1.2em;
+    display: flex;
+    margin: 0 1.5em;
+    padding: 2px;
+  }
+  .btn {
+    display: inline-block;	
+    box-sizing: border-box;
+    padding: 0 25px;
+    margin: 0 15px 15px 0;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 50px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #444;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;  
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+  }
+  .btn:hover {
+    color: red;
+  }
+  
+  @media screen and (max-width: 700px) { 
+    .block {   
+      flex-direction: row;
+    }
+  } 
+  .block {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left-block {
+    flex: 20%;
+    background-color: #fff5ef;
+    padding: 20px;
+    border: solid grey;
+    margin: 1.4em 1em 1em 1em;
+  } 
+  .contacts, .exp-panel, .uni-panel{
+    color: #666666;
+    padding: 0.8em 0.8em;
+  }
+  .profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
+  .skills {
+    font-size: 0.8em;
+    text-align: center;  
+    color: white;
+  }
+  .skills-bar {
+    width: 100%;
+    background-color: #e6e6ff;
+    border-radius: 1em;
+  }
+  .html {width: 60%; background-color: #0000cc; border-radius: 1em;}
+  .css {width: 50%; background-color: #0000cc; border-radius: 1em;}
+  .js {width: 80%; background-color: #0000cc; border-radius: 1em;}
+  .eng {width: 60%; background-color: #0000cc; border-radius: 1em;}
+  .deu {width: 40%; background-color: #0000cc; border-radius: 1em;}
+  .bel {width: 90%; background-color: #0000cc; border-radius: 1em;}
+  .rus {width: 100%; background-color: #0000cc; border-radius: 1em;}
+
+  .right-block {
+    flex: 50%;
+    background-color: #fff5ef;
+    padding: 20px;
+    border: solid grey;
+    margin: 1.4em 1em 1em 1em;
+  }
+  code {
+    font-size: 1.4em;
+    text-align: left;  
+    color: rgb(148, 0, 0);
+  }
+  footer {
+    text-align: center;
+    text-decoration: none;
+    background-color: #1212c9;
+    color: white;
+    position: relative; width:100%;
+  }
+  .social-links {
+    color: #ffffff;
+    margin: 1em;
+  }
+  .social-links :hover {
+    color: #ff6d33;
+   }
+  a {
+    font-size: 1.6em;
+    color: greenyellow;
+    text-decoration: none;
+    margin: 0.2em;
+  }
