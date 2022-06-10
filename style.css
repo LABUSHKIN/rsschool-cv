@@ -31,6 +31,9 @@ html, body {
     color: black;
     margin: 0.5em 0.1em 0.5em 0.8em;  
   }
+  h3#ler :hover {
+    color: #ff6d33;  
+  }
   h4 {
     font-size: 1.1em;
     color: #3da500;
@@ -38,7 +41,7 @@ html, body {
   }
   p {
     font-family: Arial;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: black;
     margin-left: 1.4em;
   }
@@ -131,10 +134,9 @@ html, body {
     margin: 1.4em 1em 1em 1em;
   }
   code {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: left;  
-    color: rgb(86, 83, 83);
-    
+    color: rgb(115, 0, 0);
   }
   footer {
     text-align: center;
